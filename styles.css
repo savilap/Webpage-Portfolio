@@ -1,0 +1,315 @@
+/*Main*/
+:root{
+    --blanco: #ffffff;
+    --negro: #212121;}
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Alegreya Sans', sans-serif;}
+
+/*Body*/
+.container{
+    width: 100%;
+    height: 800px;
+}
+
+h1, h2, h3{
+    gap: 20px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5pc;
+    color: var(--blanco);
+}
+
+a{
+    color: #ffffff;
+}
+
+/*Sección 1*/
+.introp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top:50px;
+    padding-left: 41pc;
+    font-style: italic;
+    width: 8pc;
+}
+.intro{
+    background: url(/img/retro1.jpg);
+    background-repeat: no-repeat;
+    color: var(--blanco);
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:220px;
+}
+
+.Arrowintro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--blanco);
+        text-decoration: none;
+}
+
+/*Seccion 2*/
+.home{
+    background: url(/img/retro2.jpg);
+    position: relative;
+}
+
+.headerhome{
+    background: linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6));
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+h2{
+    padding-top:170px;
+    padding-left: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homediv{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.homesol{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 55pc;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4pc;
+    font-size: 20px;
+}
+
+ul img{
+    display: flex;
+    justify-content: end;
+}
+
+.h2p{
+    width: 25pc;
+    height: 3pc;
+    position: absolute;
+    left: 33pc;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2pc;
+    color: var(--blanco);
+}
+
+.Arrowhome{
+    position: absolute;
+    padding-top: 240px;
+    right:49%;
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+/*Sección 3*/
+.savila{
+    background: url(/img/retro3.png)
+}
+
+h3{
+    padding-top:460px;
+    padding-left: 850px;
+}
+
+.savilap{
+    width: 40pc;
+    height: 3pc;
+    color: var(--blanco);
+    font-size: 1.8pc;
+    font-style: italic;
+    font-weight: 400;
+    position: absolute;
+    padding-top: 7pc;
+    margin-left: 10px;
+}
+
+.musica{
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+/*Sección 4*/
+.projects{
+    background: url(/img/retro4.png);
+}
+.headerprojects{
+    background: linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6));
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.projectsdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+picture{
+    padding: 15px;
+    background-color: var(--negro);
+    border-radius: 15px;
+}
+
+picture:hover{
+    filter: brightness(150%);
+}
+/*Sección 5*/
+.contacto{
+    background: url(/img/retro5.jpg);
+}
+.headercontacto{
+    background: linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6));
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin-bottom: 4pc;
+}
+
+.quickfill {
+    background-color: var(--negro);
+    width: min(50rem, 100%);
+    margin: 0 auto;
+    padding: 3.5pc;
+    border-radius: 2rem;
+    height: 60%;
+    gap: 1pc;
+
+    
+}
+
+.quickfill legend {
+    text-align: center;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .contenedor-campos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 1rem;
+        
+    }
+}
+
+.campo:nth-child(1) {
+    grid-column: 1 / 3;
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    color: antiquewhite;
+    font-weight: bold;
+    display: block;
+    margin-bottom: .5rem;
+    margin-left: 6.5pc;
+}
+
+
+.input-text {
+    background-color: antiquewhite;
+    width: 75%;
+    border: none;
+    padding: 1rem ;
+    border-radius: 1.5rem;
+    margin-left: 5px;
+}
+
+.enviar .boton {
+    width: 60%;
+}
+
+.campo-fecha{
+    text-align: center;
+    width: auto;
+    margin-left: -6pc !important; 
+}
+
+.qq{
+    margin-left: 5pc;
+}
+
+.boton {
+    background-color: antiquewhite;
+    color: var(--negro);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.8rem 3rem;
+    margin-top: 1.5rem;
+    margin-left: 9pc;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    width: 85%;
+    text-align: center;
+    justify-content: center;
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .boton {
+        width: auto;
+    }
+}
+.boton:hover {
+    cursor: pointer;
+}
+
+/*Visualizaciones Importantes*/
+.nombre{
+    margin-left: 8pc !important;
+}
+.notas{
+    margin-left: 10pc !important;
+}
