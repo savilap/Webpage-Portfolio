@@ -197,7 +197,7 @@ picture:hover{
 }
 /*Sección 5*/
 .contacto{
-    background: url(/img/retro5.jpg);
+    background: url(./img/retro5.jpg);
 }
 .headercontacto{
     background: linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6));
