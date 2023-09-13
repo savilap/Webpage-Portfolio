@@ -43,7 +43,7 @@ a{
     width: 8pc;
 }
 .intro{
-    background: url(/img/retro1.jpg);
+    background: url(./img/retro1.jpg);
     background-repeat: no-repeat;
     color: var(--blanco);
 }
@@ -65,7 +65,7 @@ h1{
 
 /*Seccion 2*/
 .home{
-    background: url(/img/retro2.jpg);
+    background: url(./img/retro2.jpg);
     position: relative;
 }
 
@@ -133,7 +133,7 @@ ul img{
 
 /*Sección 3*/
 .savila{
-    background: url(/img/retro3.png)
+    background: url(./img/retro3.png)
 }
 
 h3{
@@ -160,7 +160,7 @@ h3{
 
 /*Sección 4*/
 .projects{
-    background: url(/img/retro4.png);
+    background: url(./img/retro4.png);
 }
 .headerprojects{
     background: linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6));
